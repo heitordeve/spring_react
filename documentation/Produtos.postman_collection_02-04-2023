@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "9ebd0700-d531-4b8f-bea3-a51c45297945",
+		"name": "Produtos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5368326"
+	},
+	"item": [
+		{
+			"name": "Listar Produtos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Produtos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"\",\r\n    \"marca\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}cadastrar",
+					"host": [
+						"{{url_base}}cadastrar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
